@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/G4Serveur"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/angus-activation-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/antlr4-runtime-4.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/byte-buddy-1.14.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/hibernate-commons-annotations-6.0.6.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/hibernate-core-6.4.0.CR1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/istack-commons-runtime-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/jakarta.activation-api-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/jakarta.inject-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/jakarta.persistence-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/jakarta.transaction-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/jakarta.xml.bind-api-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/jandex-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/jaxb-core-4.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/jaxb-runtime-4.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/jboss-logging-3.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/aec_g4/jar_files/txw2-4.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/wildfly-30.0.0.Final/bin/client/jboss-cli-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/menfa/Desktop/wildfly-30.0.0.Final/bin/client/jboss-client.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
