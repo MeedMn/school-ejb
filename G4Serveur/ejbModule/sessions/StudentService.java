@@ -39,6 +39,7 @@ public class StudentService implements IDao<Student>,IDaoLocal<Student>{
 		student.setFirstName(o.getFirstName());
 		student.setLastName(o.getLastName());
 		student.setTelephone(o.getTelephone());
+		student.setFiliere(o.getFiliere());
 		em.merge(student);
 		return student;
 	}

@@ -11,7 +11,7 @@ public class Student extends User implements Serializable {
 	private String firstName;
 	private String lastName;
 	private String telephone;
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne(fetch = FetchType.EAGER)
 	private Filiere filiere;
 
 	
@@ -24,7 +24,15 @@ public class Student extends User implements Serializable {
 		this.lastName = lastName;
 		this.telephone = telephone;
 	}
+	
 
+	public Student(String email, String password ,String firstName, String lastName, String telephone, Filiere filiere) {
+		super(email,password);
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.telephone = telephone;
+		this.filiere = filiere;
+	}
 
 	public String getFirstName() {
 		return firstName;
